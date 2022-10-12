@@ -11,7 +11,7 @@ function Sport({sport}) {
 
   return (
     <div className="sport">
-      <p className="sport-name">{sport.name}</p>
+      <p className="sport-name">{sport.name ? sport.name : 'No sport Name'}</p>
       <div style={{marginLeft:"10px"}} className="regions">
         {revealRegions()}
       </div>

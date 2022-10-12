@@ -11,7 +11,7 @@ function Tournament({tournament}) {
 
   return (
     <div className="tournament">
-      <p className="tournament-name">{tournament.name}</p>
+      <p className="tournament-name">{tournament.name ? tournament.name : 'No Tournament Name'}</p>
       <div style={{marginLeft:"30px"}} className="games">
         {revealGames()}
       </div>

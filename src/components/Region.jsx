@@ -11,7 +11,7 @@ function Region({region}) {
 
   return (
     <div className="region">
-      <p className="region-name">{region.name}</p>
+      <p className="region-name">{region.name ? tournament.name : 'No region Name'}</p>
       <div style={{marginLeft:"20px"}} className="tournaments">
         {revealTournaments()}
       </div>
