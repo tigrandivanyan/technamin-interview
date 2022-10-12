@@ -23,7 +23,7 @@ function Main() {
   }
 
   return (
-    <div className="App">
+    <div className="main">
       {revealSports()}
     </div>
   );

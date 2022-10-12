@@ -10,8 +10,8 @@ function Sport({sport}) {
   }
 
   return (
-    <div className="Sport">
-      {sport.name}
+    <div className="sport">
+      <p className="sport-name">{sport.name}</p>
       <div style={{marginLeft:"10px"}} className="regions">
         {revealRegions()}
       </div>

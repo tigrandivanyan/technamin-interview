@@ -10,8 +10,8 @@ function Tournament({tournament}) {
   }
 
   return (
-    <div className="Tournament">
-      {tournament.name}
+    <div className="tournament">
+      <p className="tournament-name">{tournament.name}</p>
       <div style={{marginLeft:"30px"}} className="games">
         {revealGames()}
       </div>
