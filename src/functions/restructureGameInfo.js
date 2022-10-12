@@ -64,6 +64,8 @@ const restructureGameInfo = (gameInfo) => {
             })
         })
     })
+
+    return result;
 }
 
 export default restructureGameInfo;
